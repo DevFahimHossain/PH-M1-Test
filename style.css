@@ -38,9 +38,8 @@ body{
   line-height:160% ;
   letter-spacing: -2%;
   color: rgba(130, 130, 130, 1);
-
- 
 }
+
 .btn{
   padding: 20px 40px;
   gap: 16px;
@@ -55,13 +54,26 @@ body{
   letter-spacing: 0%;
   margin-top: 49px;
 }
-
+/* 
 
 .containerimg{
   width: 650px;
   height: 788px;
   margin-top: 100px;
+} */
+
+.box{
+  position: relative;
 }
+.boy{
+  z-index: 1;
+}
+.rectangle{
+  top: -860px;
+  left: 500px;
+}
+
+
 .About{
   display: flex;
   gap:32px ;
